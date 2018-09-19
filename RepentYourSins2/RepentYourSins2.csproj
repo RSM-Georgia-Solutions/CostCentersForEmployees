@@ -34,6 +34,9 @@
     <StartupObject>RepentYourSins2.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SAPApi">
+      <HintPath>..\..\..\..\..\Desktop\DLL\SAPApi.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
